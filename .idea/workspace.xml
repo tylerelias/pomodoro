@@ -6,6 +6,7 @@
   <component name="ChangeListManager">
     <list default="true" id="701177ca-d051-469d-8ed2-77a72af3dfb4" name="Default Changelist" comment="">
       <change afterPath="$PROJECT_DIR$/../.idea/rust.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/default_pomodoro.rs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/../.gitignore" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../.idea/.name" beforeDir="false" afterPath="$PROJECT_DIR$/../.idea/.name" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../.idea/misc.xml" afterDir="false" />
@@ -95,6 +96,56 @@
       <change beforePath="$PROJECT_DIR$/../hello_world/target/debug/rust-df08df4f4a2d2196" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../hello_world/target/debug/rust-df08df4f4a2d2196.d" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../hello_world/target/debug/rust.d" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main.rs" beforeDir="false" afterPath="$PROJECT_DIR$/src/main.rs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/debug/.fingerprint/pomodoro-7a04ef72cd4a7696/bin-pomodoro-7a04ef72cd4a7696" beforeDir="false" afterPath="$PROJECT_DIR$/target/debug/.fingerprint/pomodoro-7a04ef72cd4a7696/bin-pomodoro-7a04ef72cd4a7696" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/debug/.fingerprint/pomodoro-7a04ef72cd4a7696/bin-pomodoro-7a04ef72cd4a7696.json" beforeDir="false" afterPath="$PROJECT_DIR$/target/debug/.fingerprint/pomodoro-7a04ef72cd4a7696/bin-pomodoro-7a04ef72cd4a7696.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/debug/incremental/pomodoro-2ah96hhyhrbfl/s-fbsetrimjl-x014rz-36p5tf77612j6/1e9am3yahrahyq8a.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/debug/incremental/pomodoro-2ah96hhyhrbfl/s-fbsetrimjl-x014rz-36p5tf77612j6/1ic4n4dq95w3y8nq.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/debug/incremental/pomodoro-2ah96hhyhrbfl/s-fbsetrimjl-x014rz-36p5tf77612j6/1jtwubama4fmenug.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/debug/incremental/pomodoro-2ah96hhyhrbfl/s-fbsetrimjl-x014rz-36p5tf77612j6/1k4o4cf4fwhqn4d4.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/debug/incremental/pomodoro-2ah96hhyhrbfl/s-fbsetrimjl-x014rz-36p5tf77612j6/1k9nmwk4e4ru7qz2.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/debug/incremental/pomodoro-2ah96hhyhrbfl/s-fbsetrimjl-x014rz-36p5tf77612j6/1sjkz9t8rjiqldt7.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/debug/incremental/pomodoro-2ah96hhyhrbfl/s-fbsetrimjl-x014rz-36p5tf77612j6/1wrvri7v1v86u0e.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/debug/incremental/pomodoro-2ah96hhyhrbfl/s-fbsetrimjl-x014rz-36p5tf77612j6/25vjds96770scw2z.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/debug/incremental/pomodoro-2ah96hhyhrbfl/s-fbsetrimjl-x014rz-36p5tf77612j6/2vgythh4947d9n5r.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/debug/incremental/pomodoro-2ah96hhyhrbfl/s-fbsetrimjl-x014rz-36p5tf77612j6/32qm245axxe70gu1.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/debug/incremental/pomodoro-2ah96hhyhrbfl/s-fbsetrimjl-x014rz-36p5tf77612j6/360ykk1wk1whkug0.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/debug/incremental/pomodoro-2ah96hhyhrbfl/s-fbsetrimjl-x014rz-36p5tf77612j6/362rlg8ahpk5tddf.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/debug/incremental/pomodoro-2ah96hhyhrbfl/s-fbsetrimjl-x014rz-36p5tf77612j6/396dr9rgjssa5av7.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/debug/incremental/pomodoro-2ah96hhyhrbfl/s-fbsetrimjl-x014rz-36p5tf77612j6/39keocerv8d1qe4b.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/debug/incremental/pomodoro-2ah96hhyhrbfl/s-fbsetrimjl-x014rz-36p5tf77612j6/3abnwuqadewupv9c.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/debug/incremental/pomodoro-2ah96hhyhrbfl/s-fbsetrimjl-x014rz-36p5tf77612j6/3b6i1ya9a2z9ikzn.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/debug/incremental/pomodoro-2ah96hhyhrbfl/s-fbsetrimjl-x014rz-36p5tf77612j6/3ba91a2znv5ooq1v.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/debug/incremental/pomodoro-2ah96hhyhrbfl/s-fbsetrimjl-x014rz-36p5tf77612j6/3f5ex5ixyozsxuyl.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/debug/incremental/pomodoro-2ah96hhyhrbfl/s-fbsetrimjl-x014rz-36p5tf77612j6/3grfhnx0ivbjlwhk.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/debug/incremental/pomodoro-2ah96hhyhrbfl/s-fbsetrimjl-x014rz-36p5tf77612j6/3izwrat33uiy0tr7.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/debug/incremental/pomodoro-2ah96hhyhrbfl/s-fbsetrimjl-x014rz-36p5tf77612j6/3p8apq7v592eiwg8.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/debug/incremental/pomodoro-2ah96hhyhrbfl/s-fbsetrimjl-x014rz-36p5tf77612j6/3rdeua1bs0ojsk31.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/debug/incremental/pomodoro-2ah96hhyhrbfl/s-fbsetrimjl-x014rz-36p5tf77612j6/3tejexi1jzfkopxy.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/debug/incremental/pomodoro-2ah96hhyhrbfl/s-fbsetrimjl-x014rz-36p5tf77612j6/3yqfzxvxhfqk76z9.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/debug/incremental/pomodoro-2ah96hhyhrbfl/s-fbsetrimjl-x014rz-36p5tf77612j6/4ecja54ov6y85zzj.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/debug/incremental/pomodoro-2ah96hhyhrbfl/s-fbsetrimjl-x014rz-36p5tf77612j6/4g4mt4f07t17f6mv.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/debug/incremental/pomodoro-2ah96hhyhrbfl/s-fbsetrimjl-x014rz-36p5tf77612j6/4i3xmd5nmim566xc.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/debug/incremental/pomodoro-2ah96hhyhrbfl/s-fbsetrimjl-x014rz-36p5tf77612j6/4iqc8dpgma4wuunj.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/debug/incremental/pomodoro-2ah96hhyhrbfl/s-fbsetrimjl-x014rz-36p5tf77612j6/4qlr75bwyr4w75xu.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/debug/incremental/pomodoro-2ah96hhyhrbfl/s-fbsetrimjl-x014rz-36p5tf77612j6/4txlwd75icjc4kxx.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/debug/incremental/pomodoro-2ah96hhyhrbfl/s-fbsetrimjl-x014rz-36p5tf77612j6/4x9lmzcbqeh7bfjx.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/debug/incremental/pomodoro-2ah96hhyhrbfl/s-fbsetrimjl-x014rz-36p5tf77612j6/4z1evrqz2dpdi6zd.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/debug/incremental/pomodoro-2ah96hhyhrbfl/s-fbsetrimjl-x014rz-36p5tf77612j6/5abetmi3map58wpz.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/debug/incremental/pomodoro-2ah96hhyhrbfl/s-fbsetrimjl-x014rz-36p5tf77612j6/5cv3fjy3jp46ulhq.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/debug/incremental/pomodoro-2ah96hhyhrbfl/s-fbsetrimjl-x014rz-36p5tf77612j6/5ddx0hlwq9hlnwcp.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/debug/incremental/pomodoro-2ah96hhyhrbfl/s-fbsetrimjl-x014rz-36p5tf77612j6/5doeyztw0cqx5hs1.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/debug/incremental/pomodoro-2ah96hhyhrbfl/s-fbsetrimjl-x014rz-36p5tf77612j6/7aq9b8xxekjzak9.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/debug/incremental/pomodoro-2ah96hhyhrbfl/s-fbsetrimjl-x014rz-36p5tf77612j6/86o9gxnbxdnvrkd.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/debug/incremental/pomodoro-2ah96hhyhrbfl/s-fbsetrimjl-x014rz-36p5tf77612j6/d1zmjbmcz7f1vxz.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/debug/incremental/pomodoro-2ah96hhyhrbfl/s-fbsetrimjl-x014rz-36p5tf77612j6/dep-graph.bin" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/debug/incremental/pomodoro-2ah96hhyhrbfl/s-fbsetrimjl-x014rz-36p5tf77612j6/query-cache.bin" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/debug/incremental/pomodoro-2ah96hhyhrbfl/s-fbsetrimjl-x014rz-36p5tf77612j6/qzi2o3mw82kmf37.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/debug/incremental/pomodoro-2ah96hhyhrbfl/s-fbsetrimjl-x014rz-36p5tf77612j6/vdfiacj5r826wkj.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/debug/incremental/pomodoro-2ah96hhyhrbfl/s-fbsetrimjl-x014rz-36p5tf77612j6/work-products.bin" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/debug/incremental/pomodoro-2ah96hhyhrbfl/s-fbsetrimjl-x014rz.lock" beforeDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -113,8 +164,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main.rs">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="152">
-              <caret line="10" column="4" selection-start-line="10" selection-start-column="4" selection-end-line="10" selection-end-column="4" />
+            <state relative-caret-position="247">
+              <caret line="15" lean-forward="true" selection-start-line="15" selection-end-line="15" />
               <folding>
                 <element signature="n#!!block;n#start_custom_pomodoro#0" />
                 <element signature="n#!!block;n#validate_user_input#0" />
@@ -127,27 +178,36 @@
           </provider>
         </entry>
       </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/default_pomodoro.rs">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="38">
+              <caret line="2" column="21" lean-forward="true" selection-start-line="2" selection-start-column="21" selection-end-line="2" selection-end-column="21" />
+              <folding>
+                <element signature="e#10#11#0" expanded="true" />
+                <element signature="e#34#35#0" expanded="true" />
+                <element signature="e#76#77#0" expanded="true" />
+                <element signature="e#86#87#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
     </leaf>
   </component>
   <component name="Git.Settings">
-    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
+        <option value="$PROJECT_DIR$/src/default_pomodoro.rs" />
         <option value="$PROJECT_DIR$/src/main.rs" />
       </list>
     </option>
   </component>
   <component name="MacroExpansionManager">
     <option name="directoryName" value="kqbDZizk" />
-  </component>
-  <component name="ProjectConfigurationFiles">
-    <option name="files">
-      <list>
-        <option value="$PROJECT_DIR$/.idea/vcs.xml" />
-      </list>
-    </option>
   </component>
   <component name="ProjectFrameBounds">
     <option name="x" value="1280" />
@@ -182,6 +242,7 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
@@ -232,12 +293,12 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1556647557485</updated>
-      <workItem from="1556647562112" duration="5080000" />
+      <workItem from="1556647562112" duration="6279000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="5080000" />
+    <option name="totallyTimeSpent" value="6279000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="1280" y="48" width="1280" height="1388" extended-state="0" />
@@ -253,7 +314,7 @@
       <window_info anchor="bottom" id="Docker" show_stripe_button="false" />
       <window_info anchor="bottom" id="Database Changes" />
       <window_info anchor="bottom" id="Version Control" />
-      <window_info anchor="bottom" id="Terminal" />
+      <window_info anchor="bottom" id="Terminal" weight="0.3298217" />
       <window_info anchor="bottom" id="Event Log" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
@@ -278,10 +339,23 @@
     <option name="version" value="1" />
   </component>
   <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/src/default_pomodoro.rs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="38">
+          <caret line="2" column="21" lean-forward="true" selection-start-line="2" selection-start-column="21" selection-end-line="2" selection-end-column="21" />
+          <folding>
+            <element signature="e#10#11#0" expanded="true" />
+            <element signature="e#34#35#0" expanded="true" />
+            <element signature="e#76#77#0" expanded="true" />
+            <element signature="e#86#87#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/main.rs">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="152">
-          <caret line="10" column="4" selection-start-line="10" selection-start-column="4" selection-end-line="10" selection-end-column="4" />
+        <state relative-caret-position="247">
+          <caret line="15" lean-forward="true" selection-start-line="15" selection-end-line="15" />
           <folding>
             <element signature="n#!!block;n#start_custom_pomodoro#0" />
             <element signature="n#!!block;n#validate_user_input#0" />

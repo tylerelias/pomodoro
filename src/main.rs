@@ -3,24 +3,30 @@ use std::convert::TryInto;
 use std::io::Read;
 use std::process::exit;
 
+mod default_pomodoro;
+
 fn start_custom_pomodoro() {
 //    TODO: Implelemt this later
 }
 
-fn start_default_pmodoro() {
-
-}
 
 fn execute_user_input(input: &str) {
+
     if input == "s" {
-        println!("Default selected");
-        start_default_pmodoro();
+
+//        println!("Default selected");
+        default_pomodoro::launch();
+
     } else if input == "c" {
+
         println!("Custom selected");
         start_custom_pomodoro();
+
     } else {
+
         println!("Quit selected");
         exit(1);
+
     }
 }
 
