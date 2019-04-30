@@ -1,4 +1,7 @@
 use crate::input_fn;
+use crate::display_time;
+
+const BREAK_TIME: u32 = 5;
 
 pub fn launch() {
 
@@ -19,6 +22,11 @@ pub fn launch() {
 
 fn start_session() {
 
+    const STUDY_TIME: u64 = 25;
+
+    let study_sessions: u64 = 0;
+
+    display_time::countdown_study(STUDY_TIME)
 }
 
 fn welcome_screen() {

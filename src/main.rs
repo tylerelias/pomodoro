@@ -3,6 +3,7 @@ use std::process::exit;
 
 mod input_fn;
 mod default_pomodoro;
+mod display_time;
 
 fn start_custom_pomodoro() {
 //    TODO: Implelemt this later
