@@ -1,8 +1,7 @@
 use std::io;
-use std::convert::TryInto;
-use std::io::Read;
 use std::process::exit;
 
+mod input_fn;
 mod default_pomodoro;
 
 fn start_custom_pomodoro() {
@@ -14,7 +13,6 @@ fn execute_user_input(input: &str) {
 
     if input == "s" {
 
-//        println!("Default selected");
         default_pomodoro::launch();
 
     } else if input == "c" {
@@ -28,23 +26,6 @@ fn execute_user_input(input: &str) {
         exit(1);
 
     }
-}
-
-fn validate_user_input(input: &str) -> bool {
-
-    if input == "s" || input == "c" || input == "q" {
-        true
-    } else {
-        false
-    }
-}
-
-fn read_user_input() -> String {
-    let mut input = String::new();
-
-    io::stdin().read_line(&mut input);
-
-    input.trim().to_string()
 }
 
 //This is the default output of the console when the program is opened
@@ -61,9 +42,9 @@ fn program_start() {
     home_screen();
 
     loop {
-        let mut input = read_user_input();
+        let mut input = input_fn::read_user_input();
 
-        if validate_user_input(&input) {
+        if input_fn::validate_user_input(&input) {
 
             execute_user_input(&input);
 
