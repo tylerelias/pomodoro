@@ -15,9 +15,14 @@ pub fn countdown_study(duration: u32) {
 }
 
 pub fn countdown_break(duration: u32) {
+
     clear_console_screen();
 
-    kde_popup::study_break_five();
+    if duration == 5 {
+        kde_popup::study_break_five();
+    } else {
+        kde_popup::study_break_twenty();
+    }
 
     clock(duration);
 }
@@ -57,10 +62,4 @@ fn print_clock(minutes: u32, seconds: u32) {
 
     io::stdout().flush().unwrap();
     print!("\r");
-}
-
-
-fn clear_console_screen() {
-    print!("{}[2J", 27 as char);
-    io::stdout().flush().unwrap();
 }

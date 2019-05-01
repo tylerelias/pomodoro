@@ -43,8 +43,6 @@ fn start_session() {
 }
 
 fn welcome_screen() {
-    println!("25 min Studying, 5 min breaks.\n\
-              Every 4th iteration, you get a 20 min break\n\
-              To begin the session hit 's'");
+    println!("To begin the Study session hit 's'");
 
 }
