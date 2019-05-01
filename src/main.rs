@@ -1,9 +1,12 @@
-use std::io;
 use std::process::exit;
+
+#[macro_use]
+extern crate run_script;
 
 mod input_fn;
 mod default_pomodoro;
 mod display_time;
+mod kde_popup;
 
 fn start_custom_pomodoro() {
 //    TODO: Implelemt this later
@@ -43,9 +46,9 @@ fn program_start() {
     home_screen();
 
     loop {
-        let mut input = input_fn::read_user_input();
+        let input = input_fn::read_user_input();
 
-        if input_fn::validate_user_input(&input) {
+        if input_fn::is_input_valid(&input) {
 
             execute_user_input(&input);
 

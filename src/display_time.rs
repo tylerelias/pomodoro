@@ -1,14 +1,33 @@
 use std::io;
-use std::{thread, time};
+use std::{time};
 use std::thread::sleep;
-use std::cmp::min;
+use std::io::Write;
 
-pub fn countdown_study(duration: u64) {
+use crate::kde_popup;
 
-    const ONE_MINUTE: u64 = 60;
+pub fn countdown_study(duration: u32) {
 
-    let mut minutes: u64 = duration - 1;
-    let mut seconds: u64 = ONE_MINUTE;
+    clear_console_screen();
+
+    kde_popup::study_start();
+
+    clock(duration);
+}
+
+pub fn countdown_break(duration: u32) {
+    clear_console_screen();
+
+    kde_popup::study_break_five();
+
+    clock(duration);
+}
+
+fn clock(duration: u32) {
+
+    const ONE_MINUTE: u32 = 60;
+
+    let mut minutes: u32 = duration - 1;
+    let mut seconds: u32 = ONE_MINUTE;
 
     loop {
 
@@ -23,14 +42,25 @@ pub fn countdown_study(duration: u64) {
             seconds = ONE_MINUTE;
             minutes -= 1;
         }
-
-        println!("{}:{}", minutes, seconds)
+        print_clock(minutes, seconds);
     }
-
-    println!("out of the loop, break call comes here");
-    countdown_break(5);
 }
 
-pub fn countdown_break(duration: u32) {
 
+fn print_clock(minutes: u32, seconds: u32) {
+
+    if seconds < 10 {
+        print!("{}:0{}", minutes, seconds);
+    } else {
+        print!("{}:{}", minutes, seconds);
+    }
+
+    io::stdout().flush().unwrap();
+    print!("\r");
+}
+
+
+fn clear_console_screen() {
+    print!("{}[2J", 27 as char);
+    io::stdout().flush().unwrap();
 }

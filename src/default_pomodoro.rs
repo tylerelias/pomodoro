@@ -1,16 +1,14 @@
 use crate::input_fn;
 use crate::display_time;
 
-const BREAK_TIME: u32 = 5;
-
 pub fn launch() {
 
     welcome_screen();
 
     loop {
-         let mut input = input_fn::read_user_input();
+         let input = input_fn::read_user_input();
 
-        if input_fn::validate_user_input(&input) {
+        if input_fn::is_input_valid(&input) {
 
             start_session();
 
@@ -22,16 +20,31 @@ pub fn launch() {
 
 fn start_session() {
 
-    const STUDY_TIME: u64 = 25;
+    const STUDY_TIME: u32 = 25;
+    const BREAK_TIME: u32 = 5;
 
-    let study_sessions: u64 = 0;
+    let mut study_sessions: u32 = 0;
 
-    display_time::countdown_study(STUDY_TIME)
+    loop {
+        study_sessions += 1;
+
+        display_time::countdown_study(STUDY_TIME);
+
+        if study_sessions % 4 == 0 {
+
+            display_time::countdown_break(BREAK_TIME * 4);
+
+        } else {
+
+            display_time::countdown_break(BREAK_TIME);
+
+        }
+    }
 }
 
 fn welcome_screen() {
     println!("25 min Studying, 5 min breaks.\n\
-              Every 4th iteration, you get a 15 min break\n\
+              Every 4th iteration, you get a 20 min break\n\
               To begin the session hit 's'");
 
 }

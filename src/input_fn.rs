@@ -1,6 +1,6 @@
 use std::io;
 
-pub fn validate_user_input(input: &str) -> bool {
+pub fn is_input_valid(input: &str) -> bool {
 
     if input == "s" || input == "c" || input == "q" {
         true
