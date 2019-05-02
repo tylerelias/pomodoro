@@ -1,0 +1,12 @@
+/home/thinkpad/Dropbox/Tests/rust/pomodoro/target/debug/deps/libsyncbox-0b20480b067a423f.rlib: /home/thinkpad/.cargo/registry/src/github.com-1ecc6299db9ec823/syncbox-0.2.4/src/lib.rs /home/thinkpad/.cargo/registry/src/github.com-1ecc6299db9ec823/syncbox-0.2.4/src/atomic.rs /home/thinkpad/.cargo/registry/src/github.com-1ecc6299db9ec823/syncbox-0.2.4/src/array_queue.rs /home/thinkpad/.cargo/registry/src/github.com-1ecc6299db9ec823/syncbox-0.2.4/src/delay_queue.rs /home/thinkpad/.cargo/registry/src/github.com-1ecc6299db9ec823/syncbox-0.2.4/src/linked_queue.rs /home/thinkpad/.cargo/registry/src/github.com-1ecc6299db9ec823/syncbox-0.2.4/src/thread_pool.rs /home/thinkpad/.cargo/registry/src/github.com-1ecc6299db9ec823/syncbox-0.2.4/src/queue.rs /home/thinkpad/.cargo/registry/src/github.com-1ecc6299db9ec823/syncbox-0.2.4/src/run.rs
+
+/home/thinkpad/Dropbox/Tests/rust/pomodoro/target/debug/deps/syncbox-0b20480b067a423f.d: /home/thinkpad/.cargo/registry/src/github.com-1ecc6299db9ec823/syncbox-0.2.4/src/lib.rs /home/thinkpad/.cargo/registry/src/github.com-1ecc6299db9ec823/syncbox-0.2.4/src/atomic.rs /home/thinkpad/.cargo/registry/src/github.com-1ecc6299db9ec823/syncbox-0.2.4/src/array_queue.rs /home/thinkpad/.cargo/registry/src/github.com-1ecc6299db9ec823/syncbox-0.2.4/src/delay_queue.rs /home/thinkpad/.cargo/registry/src/github.com-1ecc6299db9ec823/syncbox-0.2.4/src/linked_queue.rs /home/thinkpad/.cargo/registry/src/github.com-1ecc6299db9ec823/syncbox-0.2.4/src/thread_pool.rs /home/thinkpad/.cargo/registry/src/github.com-1ecc6299db9ec823/syncbox-0.2.4/src/queue.rs /home/thinkpad/.cargo/registry/src/github.com-1ecc6299db9ec823/syncbox-0.2.4/src/run.rs
+
+/home/thinkpad/.cargo/registry/src/github.com-1ecc6299db9ec823/syncbox-0.2.4/src/lib.rs:
+/home/thinkpad/.cargo/registry/src/github.com-1ecc6299db9ec823/syncbox-0.2.4/src/atomic.rs:
+/home/thinkpad/.cargo/registry/src/github.com-1ecc6299db9ec823/syncbox-0.2.4/src/array_queue.rs:
+/home/thinkpad/.cargo/registry/src/github.com-1ecc6299db9ec823/syncbox-0.2.4/src/delay_queue.rs:
+/home/thinkpad/.cargo/registry/src/github.com-1ecc6299db9ec823/syncbox-0.2.4/src/linked_queue.rs:
+/home/thinkpad/.cargo/registry/src/github.com-1ecc6299db9ec823/syncbox-0.2.4/src/thread_pool.rs:
+/home/thinkpad/.cargo/registry/src/github.com-1ecc6299db9ec823/syncbox-0.2.4/src/queue.rs:
+/home/thinkpad/.cargo/registry/src/github.com-1ecc6299db9ec823/syncbox-0.2.4/src/run.rs:

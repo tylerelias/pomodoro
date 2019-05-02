@@ -25,7 +25,6 @@ fn program_start() {
         if input_fn::is_input_valid(&input) {
 
             input_fn::execute_user_input(&input);
-            print!("\r");
 
         } else {
             println!("Input not valid! Try again.");

@@ -1,0 +1,1 @@
+{"rustc":17307852377973297654,"features":"[]","target":11681445944742187453,"profile":14996655781355331481,"path":1036222786711178230,"deps":[["chrono v0.4.6","chrono",8535012507994386488]],"local":[{"MtimeBased":[[1556664607,644221981],".fingerprint/pomodoro-e43a1836409734a4/dep-bin-pomodoro-e43a1836409734a4"]}],"rustflags":[],"edition":"Edition2018"}

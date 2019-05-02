@@ -43,6 +43,8 @@ fn start_session() {
 }
 
 fn welcome_screen() {
+
+    display_time::clear_console_screen();
     println!("To begin the Study session hit 's'");
 
 }
