@@ -8,8 +8,6 @@ mod display_time;
 mod kde_popup;
 
 fn main() {
-    while true {
-        pomodoro::start_session();
-    }
+    pomodoro::start_session();
     exit(1);
 }
